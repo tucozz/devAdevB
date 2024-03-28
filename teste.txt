@@ -1,5 +1,11 @@
 # Comentario
-if language == pt-br:
-    Ola + argv[0] + !
-else:
-    Hello + argv[0] + !
+
+int main(){
+    // PLEASE FIX THIS THIS WAS NOT COMPILING
+    if language == pt-br:
+        Ola + argv[0] + !
+    else:
+        printf("Hello %s !\n", argv[0]);
+    return 0;
+    // it still does not compile, dont know whats wrong
+}
