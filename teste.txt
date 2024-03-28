@@ -1,2 +1,5 @@
 # Comentario
-Hello + argv[0] + !
+if language == pt-br:
+    Ola + argv[0] + !
+else:
+    Hello + argv[0] + !
